@@ -1,0 +1,25 @@
+{
+  "name": "Mock OAuth Server",
+  "version": "1.0.0",
+  "description": "Mocks endpoints and replies with mock OAuth2 & ODIC data.",
+  "keywords": [
+    "oauth",
+    "OAuth2",
+    "ODIC"
+  ],
+  "author": "Jeremy Lanssiers",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6"
+  }
+}

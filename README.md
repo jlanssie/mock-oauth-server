@@ -1,20 +1,36 @@
-# Template
+# Mock OAuth Server
 
-A repository template for creating new projects.
+A Node.js Express application to simulate local OAuth2 authentication endpoints.
 
 ## Installation
 
-This is a template repository and cannot be installed.
+Use JavaScript Package Manager [npm](https://www.npmjs.com/) to install Mock OAuth Server.
+
+```bash
+npm install
+```
 
 ## Usage
 
-Select this repository as a template when creating a new GitHub repository.
+Use JavaScript Package Manager [npm](https://www.npmjs.com/) to run Mock OAuth Server.
+
+```shell
+npm run start
+```
+
+## Configuration
+
+Adapt the configuration files to your needs:
+
+- config/auth.json : set scope, expiry range and access token
+- config/routes.json : set endpoints for access token, introspection and user info
+- config/user.json : set mock user info
+
+## Endpoints
 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss the proposed changes.
-
-Please ensure you update tests as appropriate.
 
 ## License
 
