@@ -11,5 +11,5 @@ initMiddleware(app);
 initRoutes(app);
 
 app.listen(port, () => {
-  console.info(`\nMock OAuth server listening to port ${port} ⚡\n`);
+  console.info(`\nMock OAuth server listening to port ${port} ⚡`);
 });

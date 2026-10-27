@@ -1,7 +1,8 @@
 const getPort = require("./port");
-const { isValidToken } = require("./token");
+const { rawContentTypes, jsonContentType } = require("./request");
 
 module.exports = {
   getPort,
-  isValidToken,
+  rawContentTypes,
+  jsonContentType,
 };

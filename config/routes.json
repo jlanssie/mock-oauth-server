@@ -1,8 +1,13 @@
 {
-  "ACCESS_TOKEN_URLS": ["/sso/oauth2/realms/root/realms/internalws/access_token"],
+  "ACCESS_TOKEN_URLS": [
+    "/sso/oauth2/realms/root/realms/internalws/access_token",
+    "/oauth/token"
+  ],
   "INTROSPECTION_URLS": [
     "/sso/oauth2/realms/root/realms/internal/introspect",
     "/sso/oauth2/realms/root/realms/internalws/introspect"
   ],
-  "USER_INFO_URLS": ["/sso/oauth2/realms/root/realms/internal/userinfo"]
+  "USER_INFO_URLS": [
+    "/sso/oauth2/realms/root/realms/internal/userinfo"
+  ]
 }
