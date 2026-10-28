@@ -2,6 +2,8 @@
 
 An Express.js application to simulate local OAuth2 authentication endpoints.
 
+![Screenshot of the Mock OAuth Server](screenshot.png)
+
 ## Installation
 
 Use JavaScript Package Manager [npm](https://www.npmjs.com/) to install Mock OAuth Server.
