@@ -1,6 +1,6 @@
 # Mock OAuth Server
 
-A Node.js Express application to simulate local OAuth2 authentication endpoints.
+An Express.js application to simulate local OAuth2 authentication endpoints.
 
 ## Installation
 
